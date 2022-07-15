@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -65,26 +64,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-
-      <Tabs>
-        <TabList>
-          <Tab>One</Tab>
-          <Tab>Two</Tab>
-          <Tab>Three</Tab>
-        </TabList>
-
-        <TabPanels>
-          <TabPanel>
-            <p>one!</p>
-          </TabPanel>
-          <TabPanel>
-            <p>two!</p>
-          </TabPanel>
-          <TabPanel>
-            <p>three!</p>
-          </TabPanel>
-        </TabPanels>
-      </Tabs>
     </div>
   )
 }
