@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Image } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 export default function Home() {
     return (
@@ -27,23 +28,23 @@ export default function Home() {
 
         <div className="container">
             <Link className="item" href="/meisho/asakusa">
-                <img src='mysite/images/浅草/kaminarimon.jpg' className="img_article" />
+                <Image src='mysite/images/浅草/kaminarimon.jpg' className="img_article" />
                 <p>浅草</p>
             </Link>
             <Link className="item" href="/meisho/kyoto">
-                <img src="/mysite/images/京都/kiyomizudera.jpg" className="img_article"/>
+                <Image src="/mysite/images/京都/kiyomizudera.jpg" className="img_article"/>
                 <p>京都</p>
             </Link>
             <Link className="item" href="/meisho/shinjuku">
-                <img src="mysite/images/新宿/sakura1.jpg" className="img_article"/>
+                <Image src="mysite/images/新宿/sakura1.jpg" className="img_article"/>
                 <p>新宿</p>
             </Link>
             <Link className="item" href="/meisho/disney">
-                <img src="mysite/images/ディズニー/7897.jpg" className="img_article"/>
+                <Image src="mysite/images/ディズニー/7897.jpg" className="img_article"/>
                 <p>ディズニー</p>
             </Link>
             <Link className="item" href="/meisho/nikko">
-                <img src="mysite/images/日光/sanzaru.jpg" className="img_article"/>
+                <Image src="mysite/images/日光/sanzaru.jpg" className="img_article"/>
                 <p>日光</p>
             </Link>
         </div>

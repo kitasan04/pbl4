@@ -3,6 +3,7 @@ import { Divider } from '@chakra-ui/react'
 import { Stack, HStack, VStack } from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 export default function kyoto(){
 return(
@@ -37,7 +38,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>雷門の写真</h2>
-                        <img src="/mysite/images/浅草/kaminarimon.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/浅草/kaminarimon.jpg" className="meisho-image" />
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
@@ -58,7 +59,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>五重塔の写真</h2>
-                        <img src="/mysite/images/浅草/7904.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/浅草/7904.jpg" className="meisho-image" />
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='500px' p={4}>

@@ -4,6 +4,7 @@ import { Stack, HStack, VStack } from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 export default function kyoto(){
 return(
 <div>
@@ -14,7 +15,7 @@ return(
         </Head>
     </div>
     <header className="page-header">
-        <h1><a href="/">名所紹介</a></h1>
+        <h1><Link href="/">名所紹介</Link></h1>
         <nav>
             <ul className="main-nav">
                 <li><Link href="/meisho/asakusa">浅草</Link></li>
@@ -37,7 +38,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>三猿の写真</h2>
-                        <img src="/mysite/images/日光/sanzaru.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/日光/sanzaru.jpg" className="meisho-image" />
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
@@ -58,7 +59,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>宿泊施設の写真</h2>
-                        <img src="/mysite/images/日光/7899.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/日光/7899.jpg" className="meisho-image" />
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
