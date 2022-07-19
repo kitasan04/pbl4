@@ -3,25 +3,25 @@ import { Divider } from '@chakra-ui/react'
 import { Stack, HStack, VStack } from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
+import { Link } from '@chakra-ui/react'
 export default function kyoto(){
 return(
 <div>
     <div>
         <Head>
             <meta charset="UTF-8"/>
-            <link rel ="stylesheet" href="../../mysite/mysite.css"/>
-            <title>京都紹介</title>
+            <title>ディズニー紹介</title>
         </Head>
     </div>
     <header className="page-header">
-        <h1><a href="/">名所紹介</a></h1>
+        <h1><Link href="/">名所紹介</Link></h1>
         <nav>
             <ul className="main-nav">
-                <li><a href="/meisho/asakusa">浅草</a></li>
-                <li><a href="/meisho/kyoto">京都</a></li>
-                <li><a href="/meisho/shinjuku">新宿</a></li>
-                <li><a href="/meisho/disney">ディズニー</a></li>
-                <li><a href="/meisho/nikko">日光</a></li>
+                <li><Link href="/meisho/asakusa">浅草</Link></li>
+                <li><Link href="/meisho/kyoto">京都</Link></li>
+                <li><Link href="/meisho/shinjuku">新宿</Link></li>
+                <li><Link href="/meisho/disney">ディズニー</Link></li>
+                <li><Link href="/meisho/nikko">日光</Link></li>
             </ul>
         </nav>
     </header>
