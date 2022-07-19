@@ -38,7 +38,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>三猿の写真</h2>
-                        <Image src="/mysite/images/日光/sanzaru.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/日光/sanzaru.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
@@ -59,7 +59,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>宿泊施設の写真</h2>
-                        <Image src="/mysite/images/日光/7899.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/日光/7899.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>

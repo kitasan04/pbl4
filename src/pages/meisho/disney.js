@@ -40,7 +40,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>シンデレラ城の写真</h2>
-                        <Image src="/mysite/images/ディズニー/7901.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/ディズニー/7901.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='500px' p={4}>
@@ -60,7 +60,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>プロメテウス火山の写真</h2>
-                        <Image src="/mysite/images/ディズニー/7897.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/ディズニー/7897.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
@@ -80,7 +80,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>シャンボール城の写真</h2>
-                        <Image src="/mysite/images/ディズニー/7903.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/ディズニー/7903.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='500px' p={4}>
@@ -101,7 +101,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>スプラッシュ・マウンテンの写真</h2>
-                        <Image src="/mysite/images/ディズニー/7902.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/ディズニー/7902.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='500px' p={4}>

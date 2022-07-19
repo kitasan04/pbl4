@@ -15,7 +15,7 @@ return(
         </Head>
     </div>
     <header className="page-header">
-        <h1><a href="/">名所紹介</a></h1>
+        <h1><Link href="/">名所紹介</Link></h1>
         <nav>
             <ul className="main-nav">
                 <li><Link href="/meisho/asakusa">浅草</Link></li>
@@ -39,7 +39,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>新宿御苑の写真</h2>
-                        <Image src="/mysite/images/新宿/sakura3.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/新宿/sakura3.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
@@ -59,7 +59,7 @@ return(
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
                         <h2>寺の桜の写真</h2>
-                        <Image src="/mysite/images/新宿/sakura2.jpg" className="meisho-image" />
+                        <Image src="/mysite/images/新宿/sakura2.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
