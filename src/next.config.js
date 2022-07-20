@@ -8,5 +8,4 @@ module.exports ={
 	eslint: {
 		ignoreDuringBuilds:true,
 	},
-	nextConfig
 }
