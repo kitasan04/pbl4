@@ -42,7 +42,7 @@ a{
   margin-left:5px;
   margin-bottom:10px;
   font-family:sans-serif;
-  font-size:3vmin;
+  font-size:2.5vmin;
 }
 
 .page-header h1:hover{
@@ -95,7 +95,7 @@ a{
 .img_article{
   width:100%;
   filter:brightness(50%);
-  object-fit:fill;
+  height:100%
 }
 
 .item:hover .img_article{
