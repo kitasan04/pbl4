@@ -52,7 +52,7 @@ a{
 .main-nav li{
   border-left: 1px solid white;
   border-right: 1px solid white;
-  font-size:2.9vmin;
+  font-size:2.5vmin;
 }
 
 .main-nav a{
@@ -95,6 +95,7 @@ a{
 .img_article{
   width:100%;
   filter:brightness(50%);
+  object-fit:fill;
 }
 
 .item:hover .img_article{
