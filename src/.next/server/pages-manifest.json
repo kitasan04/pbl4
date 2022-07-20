@@ -2,6 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/meisho/asakusa": "pages/meisho/asakusa.js",
-  "/": "pages/index.js"
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/meisho/asakusa": "pages/meisho/asakusa.html",
+  "/meisho/disney": "pages/meisho/disney.html",
+  "/meisho/kyoto": "pages/meisho/kyoto.html",
+  "/meisho/nikko": "pages/meisho/nikko.html",
+  "/meisho/shinjuku": "pages/meisho/shinjuku.html",
+  "/sample": "pages/sample.html",
+  "/404": "pages/404.html"
 }
