@@ -1,7 +1,7 @@
 version: '3'
 services:
   front:
-    build: ./src/
+    build: .
     volumes: 
       - ./src:/app
     command: yarn dev
