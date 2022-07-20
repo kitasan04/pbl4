@@ -30,20 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/meisho/asakusa": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/meisho/asakusa.js"
+    ],
     "/meisho/disney": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/meisho/disney.js"
-    ],
-    "/meisho/kyoto": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/meisho/kyoto.js"
-    ],
-    "/meisho/nikko": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/meisho/nikko.js"
     ],
     "/meisho/shinjuku": [
       "static/chunks/webpack.js",

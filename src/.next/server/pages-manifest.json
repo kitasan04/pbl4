@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/meisho/kyoto": "pages/meisho/kyoto.js",
-  "/meisho/disney": "pages/meisho/disney.js",
-  "/meisho/nikko": "pages/meisho/nikko.js",
-  "/meisho/shinjuku": "pages/meisho/shinjuku.js"
+  "/meisho/asakusa": "pages/meisho/asakusa.js",
+  "/": "pages/index.js"
 }
