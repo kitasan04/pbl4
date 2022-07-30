@@ -44,7 +44,7 @@ return(
                         <Stack direction='row' h='300px' p={4}>
                             <Divider orientation='vertical' />
                             <div>
-                                <Text fontSize='30px' color='blue'>説明</Text>
+                                <Text fontSize='20px' color='blue'>説明</Text>
                                 <Text>浅草の象徴的存在である、雷門。</Text>
                                 <Text>その真正面からの一枚。</Text>
                                 <Text>さすがの人気ぶりでものすごい人混みが写真からも見て取れる。</Text>
